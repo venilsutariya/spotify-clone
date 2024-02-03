@@ -17,7 +17,7 @@ const AccountContent = () => {
     }, [isLoading , user , router])
     return (
         <>
-            <h1 className="flex justify-center my-5">Currently you are on the no subscription</h1>
+            <h1 className="flex justify-center my-5">Currently you are in a no subscription modal</h1>
             <h1 className="flex justify-center my-5">You can Go to Home</h1>
         </>
     )
